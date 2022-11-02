@@ -34,13 +34,9 @@ body {
     color: #fff;
 }
 
-.menu,
-.fa-xmark {
-    display: none;
-}
 
 .navigation {
-    width: 35%;
+    width: 40%;
     height: 100%;
 }
 
@@ -50,6 +46,7 @@ body {
     height: 100%;
     align-items: center;
     justify-content: space-between;
+    gap: 5px;
 }
 
 .navigation__li {
@@ -86,6 +83,11 @@ body {
 
 .navigation__a:hover::after {
     transform: scale(1);
+}
+
+#menu,
+.fa-xmark {
+    display: none;
 }
 
 /* Main */
@@ -321,7 +323,7 @@ body {
 
 @media (max-width: 926px) {
 
-    .menu,
+    #menu,
     .fa-xmark {
         display: block;
         font-size: 2rem;
@@ -424,6 +426,10 @@ body {
 
     .hero__img {
         min-width: 60%;
+    }
+
+    .products__title {
+        font-size: 1.8rem;
     }
 
     .slider__container-item {
