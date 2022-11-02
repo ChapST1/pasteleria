@@ -432,8 +432,18 @@ body {
         font-size: 1.8rem;
     }
 
+    .slider {
+        display: flex;
+        flex-direction: column;
+    }
+
     .slider__container-item {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .slider__controls,
+    .description__img {
+        order: -1;
     }
 
     .description__container-info,
