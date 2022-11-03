@@ -110,6 +110,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 .hero__description-phrase {
@@ -118,6 +119,7 @@ body {
     font-weight: 400;
     color: #fff;
     font-style: italic;
+    padding: 25px 0;
 }
 
 .hero__description-btn {
